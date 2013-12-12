@@ -14,12 +14,12 @@ public class DefaultReplyGenerator implements ReplyGenerator {
     private List<String> answers = new ArrayList<String>();
     
     public DefaultReplyGenerator() {
-        answers.add("Конечно! Что за вопрос!");
-        answers.add("Хмм... ну попробуй....");
-        answers.add("Я бы не советовал, но решать тебе.");
-        answers.add("Можно, но ооочень осторожно");
-        answers.add("И думать забудь!");
-        answers.add("Ваш вопрос уже отправлен в ФСБ. Ждите, за вами выехали.");
+        answers.add("Ans1");
+        answers.add("Ans2");
+        answers.add("Ans3");
+        answers.add("Ans4");
+        answers.add("Ans5");
+        answers.add("Ans6");
     }
     
     @Override
