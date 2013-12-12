@@ -3,7 +3,7 @@ package exigen.students;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+import org.apache.commons.lang3.StringUtils;
 /**
  * @author Anna Khasanova
  */
@@ -27,7 +27,7 @@ public class App {
         while (true) {
             System.out.println("Можно ли мне... ");
             String question = bufferRead.readLine().trim();
-            if (question.isEmpty()) {
+            if (StringUtils.isEmpty(question)) {
                 continue;
             }
             if (isExitCommand(question)) {
